@@ -1,0 +1,189 @@
+/* headings */
+h1 {
+    text-align: center;
+    font-family: freight-big-pro, Georgia, serif;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 46.2000007629395px;
+    text-transform: none;
+    color: #dcb450;
+}
+
+h2 {
+    text-align: left;
+    font-family: freight-big-pro, Georgia, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-transform: none;
+    color: #d1e8e2;
+
+}
+
+h3{
+    text-align: left;
+    font-family: freight-big-pro, Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 46.2000007629395px;
+    text-transform: none;
+    color: #dcb450;
+
+}
+
+/* horizontal line */
+hr {
+    height: 4px;
+    background-color: #638ba5;
+    border: none;
+}
+
+/* paragraph style */
+p1 {
+    text-align: center;
+    font-family: freight-big-pro, Georgia, serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 15px;
+    text-transform: none;
+    color: #d1e8e2;
+}
+
+/* body */
+body {
+    background-color: #373b39;
+}
+
+
+/* header */
+header {
+    text-align: center;
+    font-family: freight-big-pro, Georgia, serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 15px;
+    text-transform: none;
+    color: #dcb450;
+}
+
+/* footer */
+footer { 
+    text-align: center;
+    font-family: freight-big-pro, Georgia, serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 15px;
+    text-transform: none;
+    color: #dcb450;
+}
+
+/* wrapper */
+.wrapper {
+    margin: 0 auto;
+    width: 1100px;
+
+}
+
+
+/* navigation bar */
+.topnav {
+    background-color: #50524e;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #638ba5;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #d1e8e2;
+    color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #638ba5;
+    color: #ffffff;
+}
+
+/* index photo */
+.responsive {
+    width: 100%;
+    max-width: 545px;
+    height: 1000px;
+}
+
+
+/* photo page */
+* {
+    box-sizing: border-box;
+}
+
+.allcolumns {
+    float: left;
+    width: 33.3333%;
+    padding: 10px;
+}
+
+.row ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 768px) {
+    .allcolumns {
+        width: 100%;
+    }
+}
+
+/* about page */
+#container {
+    display: flex;
+    align-items: center;
+
+}
+
+#container img {
+    float: right;
+    width: 500px;
+    height: auto;
+    margin-right: 140px;
+}
+
+/* inspirations page */
+
+ul.a {
+    list-style-type: square;
+    font-family: freight-big-pro, Georgia, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-transform: none;
+    color: #d1e8e2;
+}
+
+
